@@ -2,10 +2,7 @@ package ru.emelianov.springedu.beans;
 
 import jakarta.annotation.PostConstruct;
 import jakarta.annotation.PreDestroy;
-import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.stereotype.Component;
 
-@Component
 public class JazzMusic implements Music {
 
     @Override
